@@ -15,8 +15,8 @@ class ConfirmGuard extends AutoRouteGuard {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: const Text('Confirm Exit'),
-          content: const Text('Do you really want to exit this page?'),
+          title: const Text('Confirm Navigation'),
+          content: const Text('Do you really want to enter this page?'),
           actions: [
             TextButton(
               child: const Text('Cancel'),
